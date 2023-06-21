@@ -603,11 +603,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\luizf\\OneDrive\\Documentos\\Pessoal\\Apis\\core\\Core\\Core.csproj",
+      "projectUniqueName": "C:\\Users\\luizf\\OneDrive\\Documentos\\Pessoal\\Organizar\\AgendaBackEndC#\\core\\Core\\Core.csproj",
       "projectName": "Core",
-      "projectPath": "C:\\Users\\luizf\\OneDrive\\Documentos\\Pessoal\\Apis\\core\\Core\\Core.csproj",
+      "projectPath": "C:\\Users\\luizf\\OneDrive\\Documentos\\Pessoal\\Organizar\\AgendaBackEndC#\\core\\Core\\Core.csproj",
       "packagesPath": "C:\\Users\\luizf\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\luizf\\OneDrive\\Documentos\\Pessoal\\Apis\\core\\Core\\obj\\",
+      "outputPath": "C:\\Users\\luizf\\OneDrive\\Documentos\\Pessoal\\Organizar\\AgendaBackEndC#\\core\\Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
