@@ -1,0 +1,355 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Agenda.API</name>
+    </assembly>
+    <members>
+        <member name="P:Agenda.API.Application.DTO.CadastroCommand.Nome">
+            <summary>
+            Nome do Cadastrado
+            </summary>
+        </member>
+        <member name="P:Agenda.API.Application.DTO.CadastroCommand.Sobrenome">
+            <summary>
+            Sobrenome do Cadastrado
+            </summary>
+        </member>
+        <member name="P:Agenda.API.Application.DTO.CadastroCommand.Cpf">
+            <summary>
+            CPF do Cadastrado
+            </summary>
+        </member>
+        <member name="P:Agenda.API.Application.DTO.CadastroCommand.Rg">
+            <summary>
+            RG do Cadastrado
+            </summary>
+        </member>
+        <member name="P:Agenda.API.Application.DTO.CadastroCommand.DataNascimento">
+            <summary>
+            Data de Nascimento do Cadastrado
+            </summary>
+        </member>
+        <member name="P:Agenda.API.Application.DTO.CadastroCommand.Cor">
+            <summary>
+            Branco, Pardo, Preto, Indigena, Amarelo E Outro
+            </summary>
+        </member>
+        <member name="P:Agenda.API.Application.DTO.CadastroCommand.Sexo">
+            <summary>
+            Masculino, Feminino e Outro
+            </summary>
+        </member>
+        <member name="P:Agenda.API.Application.DTO.CadastroCommand.Telefone">
+            <summary>
+            Telefone do Cadastrado
+            </summary>
+        </member>
+        <member name="P:Agenda.API.Application.DTO.CadastroCommand.EstadoCivil">
+            <summary>
+            Solteiro,Casado,Divorciado,Viuvo e SeparadoJudicialmente
+            </summary>
+        </member>
+        <member name="P:Agenda.API.Application.DTO.CadastroCommand.Status">
+            <summary>
+            Status
+            </summary>
+        </member>
+        <member name="P:Agenda.API.Application.DTO.EspecialidadeCommand.Nome">
+            <summary>
+            Nome do serviço
+            </summary>
+        </member>
+        <member name="P:Agenda.API.Application.DTO.EspecialidadeCommand.Descricao">
+            <summary>
+            Descrição breve do serviço
+            </summary>
+        </member>
+        <member name="P:Agenda.API.Application.DTO.EspecialidadeCommand.Status">
+            <summary>
+            Status de como o serviço está 1 = ativo, 0 = Inativo
+            </summary>
+        </member>
+        <member name="P:Agenda.API.Application.DTO.ServicoCommand.Nome">
+            <summary>
+            Nome do serviço
+            </summary>
+        </member>
+        <member name="P:Agenda.API.Application.DTO.ServicoCommand.TipoServico">
+            <summary>
+            Tipo do serviço prestado
+            </summary>
+        </member>
+        <member name="P:Agenda.API.Application.DTO.ServicoCommand.TempoExecucao">
+            <summary>
+            Tempo em que o serviço é realizado
+            </summary>
+        </member>
+        <member name="P:Agenda.API.Application.DTO.ServicoCommand.Descricao">
+            <summary>
+            Descrição breve do serviço
+            </summary>
+        </member>
+        <member name="P:Agenda.API.Application.DTO.ServicoCommand.Valor">
+            <summary>
+            Valor do serviço
+            </summary>
+        </member>
+        <member name="P:Agenda.API.Application.DTO.ServicoCommand.Status">
+            <summary>
+            Status de como o serviço está 1 = ativo, 0 = Inativo
+            </summary>
+        </member>
+        <member name="P:Agenda.API.Application.DTO.CadastroDTO.Nome">
+            <summary>
+            Nome do Cadastrado
+            </summary>
+        </member>
+        <member name="P:Agenda.API.Application.DTO.CadastroDTO.Sobrenome">
+            <summary>
+            Sobrenome do Cadastrado
+            </summary>
+        </member>
+        <member name="P:Agenda.API.Application.DTO.CadastroDTO.Cpf">
+            <summary>
+            CPF do Cadastrado
+            </summary>
+        </member>
+        <member name="P:Agenda.API.Application.DTO.CadastroDTO.Rg">
+            <summary>
+            RG do Cadastrado
+            </summary>
+        </member>
+        <member name="P:Agenda.API.Application.DTO.CadastroDTO.DataNascimento">
+            <summary>
+            Data de Nascimento do Cadastrado
+            </summary>
+        </member>
+        <member name="P:Agenda.API.Application.DTO.CadastroDTO.Cor">
+            <summary>
+            Branco, Pardo, Preto, Indigena, Amarelo E Outro
+            </summary>
+        </member>
+        <member name="P:Agenda.API.Application.DTO.CadastroDTO.Sexo">
+            <summary>
+            Masculino, Feminino e Outro
+            </summary>
+        </member>
+        <member name="P:Agenda.API.Application.DTO.CadastroDTO.Telefone">
+            <summary>
+            Telefone do Cadastrado
+            </summary>
+        </member>
+        <member name="P:Agenda.API.Application.DTO.CadastroDTO.EstadoCivil">
+            <summary>
+            Solteiro,Casado,Divorciado,Viuvo e SeparadoJudicialmente
+            </summary>
+        </member>
+        <member name="P:Agenda.API.Application.DTO.CadastroDTO.Status">
+            <summary>
+            Status
+            </summary>
+        </member>
+        <member name="P:Agenda.API.Application.DTO.EspecialidadeDTO.Nome">
+            <summary>
+            Nome do serviço
+            </summary>
+        </member>
+        <member name="P:Agenda.API.Application.DTO.EspecialidadeDTO.Descricao">
+            <summary>
+            Descrição breve do serviço
+            </summary>
+        </member>
+        <member name="P:Agenda.API.Application.DTO.EspecialidadeDTO.Status">
+            <summary>
+            Status do trabalho
+            </summary>
+        </member>
+        <member name="P:Agenda.API.Application.DTO.Filtro.CadastroListaCheckBoxFiltroDTO.Nome">
+            <summary>
+            Filtro por nome para busca
+            </summary>
+        </member>
+        <member name="P:Agenda.API.Application.DTO.Filtro.CadastroListaPaginadoFiltroDTO.Nome">
+            <summary>
+            Filtro por nome para busca
+            </summary>
+        </member>
+        <member name="P:Agenda.API.Application.DTO.Filtro.CadastroListaPaginadoFiltroDTO.AccountId">
+            <summary>
+            Filtro por account para buscar somente dados da empresa logada
+            </summary>
+        </member>
+        <member name="P:Agenda.API.Application.DTO.Filtro.EspecialidadeListaCheckBoxFiltroDTO.Nome">
+            <summary>
+            Filtro por nome para busca
+            </summary>
+        </member>
+        <member name="P:Agenda.API.Application.DTO.Filtro.EspecialidadeListaPaginadoFiltroDTO.Nome">
+            <summary>
+            Filtro por nome para busca
+            </summary>
+        </member>
+        <member name="P:Agenda.API.Application.DTO.Filtro.EspecialidadeListaPaginadoFiltroDTO.AccountId">
+            <summary>
+            Filtro por account para buscar somente dados da empresa logada
+            </summary>
+        </member>
+        <member name="P:Agenda.API.Application.DTO.Filtro.ServicoListaCheckBoxFiltroDTO.Nome">
+            <summary>
+            Filtro por nome para busca
+            </summary>
+        </member>
+        <member name="P:Agenda.API.Application.DTO.Filtro.ServicoListaPaginadoFiltroDTO.Nome">
+            <summary>
+            Filtro por nome para busca
+            </summary>
+        </member>
+        <member name="P:Agenda.API.Application.DTO.Filtro.ServicoListaPaginadoFiltroDTO.AccountId">
+            <summary>
+            Filtro por account para buscar somente dados da empresa logada
+            </summary>
+        </member>
+        <member name="P:Agenda.API.Application.DTO.ServicoDTO.Nome">
+            <summary>
+            Nome do serviço
+            </summary>
+        </member>
+        <member name="P:Agenda.API.Application.DTO.ServicoDTO.TipoServico">
+            <summary>
+            Tipo do serviço prestado
+            </summary>
+        </member>
+        <member name="P:Agenda.API.Application.DTO.ServicoDTO.TempoExecucao">
+            <summary>
+            Tempo em que o serviço é realizado
+            </summary>
+        </member>
+        <member name="P:Agenda.API.Application.DTO.ServicoDTO.Descricao">
+            <summary>
+            Descrição breve do serviço
+            </summary>
+        </member>
+        <member name="P:Agenda.API.Application.DTO.ServicoDTO.Valor">
+            <summary>
+            Valor do serviço
+            </summary>
+        </member>
+        <member name="P:Agenda.API.Application.DTO.ServicoDTO.Status">
+            <summary>
+            Status do trabalho
+            </summary>
+        </member>
+        <member name="M:Agenda.API.Configuration.SwaggerConfiguration.AddSwaggerConfiguration(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            Confgurações gerais do Swagger
+            </summary>
+            <param name="services"></param>
+        </member>
+        <member name="M:Agenda.API.Configuration.SwaggerConfiguration.UseSwaggerConfiguration(Microsoft.AspNetCore.Builder.IApplicationBuilder)">
+            <summary>
+            Configuração do Swagger
+            </summary>
+            <param name="app"></param>
+        </member>
+        <member name="T:Agenda.API.Domain.Model.Cadastro">
+            <summary>
+            Tabela de Cadastros
+            </summary>
+        </member>
+        <member name="P:Agenda.API.Domain.Model.Cadastro.Nome">
+            <summary>
+            Nome do Cadastrado
+            </summary>
+        </member>
+        <member name="P:Agenda.API.Domain.Model.Cadastro.Sobrenome">
+            <summary>
+            Sobrenome do Cadastrado
+            </summary>
+        </member>
+        <member name="P:Agenda.API.Domain.Model.Cadastro.Cpf">
+            <summary>
+            CPF do Cadastrado
+            </summary>
+        </member>
+        <member name="P:Agenda.API.Domain.Model.Cadastro.Rg">
+            <summary>
+            RG do Cadastrado
+            </summary>
+        </member>
+        <member name="P:Agenda.API.Domain.Model.Cadastro.DataNascimento">
+            <summary>
+            Data de Nascimento do Cadastrado
+            </summary>
+        </member>
+        <member name="P:Agenda.API.Domain.Model.Cadastro.Cor">
+            <summary>
+            Branco, Pardo, Preto, Indigena, Amarelo E Outro
+            </summary>
+        </member>
+        <member name="P:Agenda.API.Domain.Model.Cadastro.Sexo">
+            <summary>
+            Masculino, Feminino e Outro
+            </summary>
+        </member>
+        <member name="P:Agenda.API.Domain.Model.Cadastro.Telefone">
+            <summary>
+            Telefone do Cadastrado
+            </summary>
+        </member>
+        <member name="P:Agenda.API.Domain.Model.Cadastro.EstadoCivil">
+            <summary>
+            Solteiro,Casado,Divorciado,Viuvo e SeparadoJudicialmente
+            </summary>
+        </member>
+        <member name="P:Agenda.API.Domain.Model.Cadastro.Status">
+            <summary>
+            Status
+            </summary>
+        </member>
+        <member name="P:Agenda.API.Domain.Model.Especialidade.Nome">
+            <summary>
+            Nome do serviço
+            </summary>
+        </member>
+        <member name="P:Agenda.API.Domain.Model.Especialidade.Descricao">
+            <summary>
+            Descrição breve do serviço
+            </summary>
+        </member>
+        <member name="P:Agenda.API.Domain.Model.Especialidade.Status">
+            <summary>
+            Status do trabalho
+            </summary>
+        </member>
+        <member name="P:Agenda.API.Domain.Model.Servico.Nome">
+            <summary>
+            Nome do serviço
+            </summary>
+        </member>
+        <member name="P:Agenda.API.Domain.Model.Servico.TipoServico">
+            <summary>
+            Tipo do serviço prestado
+            </summary>
+        </member>
+        <member name="P:Agenda.API.Domain.Model.Servico.TempoExecucao">
+            <summary>
+            Tempo em que o serviço é realizado
+            </summary>
+        </member>
+        <member name="P:Agenda.API.Domain.Model.Servico.Descricao">
+            <summary>
+            Descrição breve do serviço
+            </summary>
+        </member>
+        <member name="P:Agenda.API.Domain.Model.Servico.Valor">
+            <summary>
+            Valor do serviço
+            </summary>
+        </member>
+        <member name="P:Agenda.API.Domain.Model.Servico.Status">
+            <summary>
+            Status do trabalho
+            </summary>
+        </member>
+    </members>
+</doc>
